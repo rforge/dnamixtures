@@ -1,0 +1,15 @@
+Package: DNAmixtures
+Type: Package
+Title: Statistical Inference for Mixed Traces of DNA
+Version: 0.1-0
+Date: 2013-06-10
+Author: Therese Graversen
+Maintainer: <therese.graversen@stats.ox.ac.uk>
+Description: Statistical methods for inference about contributors to a mixed
+    trace of DNA.
+Depends:
+    RHugin,
+    Rsolnp,
+    numDeriv,
+    Matrix
+License: GPL (>=2)
