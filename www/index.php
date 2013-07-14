@@ -62,8 +62,8 @@ see the <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; 
 <h2> Computation on Bayesian networks </h2>
 
 When unknown contributors are included in a model, the implementation
-relies on <a href = "www.hugin.com">Hugin</a> through the API provided
-in the RHugin package. Hugin is solely used for performing
+relies on <a href = "http://www.hugin.com">Hugin</a> through the API provided
+in the <a href = "http://rhugin.r-forge.r-project.org/">RHugin package</a>. Hugin is solely used for performing
 computations on the Bayesian networks created by DNAmixtures, and in
 principle another engine could be used in place of Hugin; however,
 this is currently not supported.
