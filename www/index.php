@@ -62,11 +62,11 @@ see the <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; 
 <h2> Computation on Bayesian networks </h2>
 
 When unknown contributors are included in a model, the implementation
-relies on <a href = "http://www.hugin.com">Hugin</a> through the API provided
-in the <a href = "http://rhugin.r-forge.r-project.org/">RHugin package</a>. Hugin is solely used for performing
-computations on the Bayesian networks created by DNAmixtures, and in
-principle another engine could be used in place of Hugin; however,
-this is currently not supported.
+relies on <a href = "http://www.hugin.com">Hugin</a> through the API
+provided in the <a href ="http://rhugin.r-forge.r-project.org/">RHugin package</a>. Hugin is
+solely used for performing computations on the Bayesian networks
+created by DNAmixtures, and in principle another engine could be used
+in place of Hugin; however, this is currently not supported.
 
 Note that the DNAmixture package can be used with the free version of
 Hugin, HuginLite, though due to a limitation in the size of networks
@@ -90,7 +90,8 @@ install.packages(c("Rsolnp", "Matrix", "numDeriv"))
 
 Once the dependencies are installed, DNAmixtures can be installed by
 <pre>
-install.packages("DNAmixtures", repos = "http://dnamixtures.r-forge.r-project.org/", type = "source")
+install.packages("DNAmixtures", repos = "http://dnamixtures.r-forge.r-project.org/", 
+type = "source", INSTALL_opts = "--no-multiarch")
 </pre>
 
 <h2> Getting started </h2>
