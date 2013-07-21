@@ -38,7 +38,6 @@ The DNAmixtures package implements a statistical model for mixed
   traces of DNA, described in <a href = "http://arxiv.org/abs/1302.4404">
 Analysis of DNA mixtures with Artefacts</a>. 
 </p>
-<p>
 Features include 
 <ul>
 <li>Parameter-fitting</li> 
@@ -47,7 +46,7 @@ Features include
 <li>Prediction of the genotypes of unknown
 contributors to the model.</li>
 </ul>
-</p>
+
 <p>
   The computational approach is discussed in <a href="http://arxiv.org/abs/1307.4956">
 Computational aspects of DNA mixture analysis</a> along with a description of the various tools for model checking.
@@ -90,7 +89,7 @@ install.packages(c("Rsolnp", "Matrix", "numDeriv"))
 
 Once the dependencies are installed, DNAmixtures can be installed by
 <p class="code">
-install.packages("DNAmixtures", repos = "http://dnamixtures.r-forge.r-project.org/", <br>
+install.packages("DNAmixtures", repos = "http://dnamixtures.r-forge.r-project.org/", <br/>
 type = "source", INSTALL_opts = "--no-multiarch")
 </p>
 
@@ -104,7 +103,7 @@ version of Hugin.
 
 The example can be found as
 <p class="code">
-library(DNAmixtures)<br>
+library(DNAmixtures)<br/>
 help(DNAmixtures)
 </p>
 
