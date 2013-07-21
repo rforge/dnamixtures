@@ -1,0 +1,52 @@
+body {
+    font-size: 100%;
+    font-family: "Times New Roman", serif;
+    background: #555;
+    padding: 1em 0 1em 0;
+    margin: 0;
+}
+div#wrap {
+    background: #FFFFFF 0% 0;
+    width: 70%;
+    margin: 0 auto;
+    padding: 2em 2em 2em 2em;
+    border-radius: 1em;
+}
+
+h1#projectname {
+    font-size: 2.5em;
+    color: #92948f;
+}
+
+h2#projectsubname {
+    color: #8796c0;
+}
+
+p.code {
+    font-family: monospace;
+    padding: 0 0 0 2em;
+    background-color: #FFFFFF;
+}
+
+hr {
+    height: 0.2em;
+    color: #92948f;
+    background-color: #92948f;
+}
+
+
+div#logo {
+    margin: 0;
+    float: right;
+}
+
+div#footer {
+    background: #955 0% 0;
+    width: 70%;
+    margin: 0 auto;
+}
+
+div#validation {
+    float: right;
+    padding: 2em;
+}

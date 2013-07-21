@@ -1,7 +1,3 @@
-
-<!-- This is the project specific website template -->
-<!-- It can be changed as liked or replaced by other content -->
-
 <?php
 
 $domain=ereg_replace('[^\.]*\.(.*)$','\1',$_SERVER['HTTP_HOST']);
@@ -17,49 +13,47 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
   <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title> The DNAmixtures package </title>
-	<link href="http://<?php echo $themeroot; ?>styles/estilo1.css" rel="stylesheet" type="text/css" />
-	<link rel="shortcut icon" href="favicon.ico">
+	<link href="css/default.css" rel="stylesheet" type="text/css" />
+	<link rel="shortcut icon" href="favicon.ico"/>
   </head>
 
 <body>
 
-<!-- R-Forge Logo -->
-<table border="0" width="100%" cellspacing="0" cellpadding="0">
-<tr><td>
-<a href="http://r-forge.r-project.org/"><img src="http://<?php echo $themeroot; ?>/imagesrf/logo.png" border="0" alt="R-Forge Logo" /> </a> </td> </tr>
-</table>
+  <div id="wrap">
 
-
-<!-- get project title  -->
-<!-- own website starts here, the following may be changed as you like -->
-
-<?php 
-//if ($handle=fopen('http://'.$domain.'/export/projtitl.php?group_name='.$group_name,'r')){
-//$contents = '';
-//	while (!feof($handle)) {
-//	$contents .= fread($handle, 8192);
-//}
-//fclose($handle);
-//echo $contents; } 
-?>
-
-<h1> The DNAmixtures package </h1>
-
-The DNAmixtures package implements a statistical model for mixed
-traces of DNA described in <a href = "http://arxiv.org/abs/1302.4404">
-Analysis of DNA mixtures with Artefacts</a>. 
-
-Features include parameter-fitting, visual diagnostics, evaluation of
-the likelihood, and prediction of the genotypes of unknown
-contributors to the model.
-
+  <div id="logo">  
+  <!-- R-Forge Logo -->
+  <table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr><td>
+  <a href="http://r-forge.r-project.org/"><img src="http://<?php echo $themeroot; ?>/imagesrf/logo.png" border="0" alt="R-Forge Logo" /> </a> </td> </tr>
+  </table>
+  </div>
+  
+  <h1 id="projectname"> The DNAmixtures package  </h1>
+  <h2 id="projectsubname"> Statistical analysis of DNA mixtures with artefacts </h2>
+  
+<hr/>
 <p>
-Questions and comments are very welcome and can be directed to Therese Graversen. For contact details, 
-see the <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><strong>project summary page</strong></a>. </p>
+The DNAmixtures package implements a statistical model for mixed
+  traces of DNA, described in <a href = "http://arxiv.org/abs/1302.4404">
+Analysis of DNA mixtures with Artefacts</a>. 
+</p>
+<p>
+Features include 
+<ul>
+<li>Parameter-fitting</li> 
+<li>Visual diagnostics</li> 
+<li>Evaluation of the likelihood</li> 
+<li>Prediction of the genotypes of unknown
+contributors to the model.</li>
+</ul>
+</p>
+<p>
+  The computational approach is discussed in <a href="http://arxiv.org/abs/1307.4956">
+Computational aspects of DNA mixture analysis</a> along with a description of the various tools for model checking.
+</p>
 
-<!-- end of project description -->
-
-<h2> Computation on Bayesian networks </h2>
+<h4> Computation on Bayesian networks </h4>
 
 When unknown contributors are included in a model, the implementation
 relies on <a href = "http://www.hugin.com">Hugin</a> through the API
@@ -73,6 +67,12 @@ Hugin, HuginLite, though due to a limitation in the size of networks
 allowed by the free version, in practice it will restrict the
 functionality in DNAmixtures to mixtures with no unknown contributors.
 
+<h4> Contact </h4>
+<p>
+  Questions and comments are very welcome and can be directed to the author, Therese Graversen. For contact details, 
+see the <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><strong>project summary page</strong></a>. </p>
+
+
 <h2> Installation </h2>
 
 <h4> Installing dependencies </h4>
@@ -82,17 +82,17 @@ package homepage </a> on how to install RHugin and its dependencies.
 
 Furthermore, DNAmixtures require packages Rsolnp, Matrix, and
 numDeriv, that can all be obtained as
-<pre> 
+<p class="code"> 
 install.packages(c("Rsolnp", "Matrix", "numDeriv")) 
-</pre>
+</p>
 
 <h4> Installing DNAmixtures </h4>
 
 Once the dependencies are installed, DNAmixtures can be installed by
-<pre>
-install.packages("DNAmixtures", repos = "http://dnamixtures.r-forge.r-project.org/", 
+<p class="code">
+install.packages("DNAmixtures", repos = "http://dnamixtures.r-forge.r-project.org/", <br>
 type = "source", INSTALL_opts = "--no-multiarch")
-</pre>
+</p>
 
 <h2> Getting started </h2>
 
@@ -103,11 +103,29 @@ known contributor for an unknown contributor requires a full licenced
 version of Hugin.
 
 The example can be found as
-<pre>
-library(DNAmixtures)
+<p class="code">
+library(DNAmixtures)<br>
 help(DNAmixtures)
-</pre>
+</p>
 
+
+
+</div>
+
+<div id="footer">
+<div id="validation">
+
+    <a href="http://validator.w3.org/check?uri=referer"><img
+      src="http://www.w3.org/Icons/valid-xhtml10-blue" alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a>
+
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+<img style="border:0;width:88px;height:31px"
+src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+alt="Valid CSS!" />
+</a>
+
+</div>
+</div>
 
 </body>
 </html>
