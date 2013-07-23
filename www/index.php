@@ -16,7 +16,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 	<meta name="keywords" content="DNA mixture, mixed profile, deconvolution, likelihood ratio, maximum likelihood, genotype, evidence, EPG" />
 	<title> The DNAmixtures package </title>
 	<link href="css/default.css" rel="stylesheet" type="text/css" />
-	<link rel="shortcut icon" href="favicon.ico"/>
+	<link rel="shortcut icon" href="http://dnamixtures.r-forge.r-project.org/favicon.ico"/>
   </head>
 
 <body>
