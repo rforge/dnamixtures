@@ -16,7 +16,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 	<meta name="keywords" content="DNA mixture, mixed profile, deconvolution, likelihood ratio, maximum likelihood, genotype, evidence, EPG" />
 	<title> The DNAmixtures package </title>
 	<link href="css/default.css" rel="stylesheet" type="text/css" />
-	<link rel="shortcut icon" href="http://dnamixtures.r-forge.r-project.org/favicon.ico"/>
+	<link rel="shortcut icon" href="favicon.ico"/>
   </head>
 
 <body>
@@ -81,8 +81,8 @@ see the <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; 
 See the <a href = "http://rhugin.r-forge.r-project.org/">RHugin
 package homepage </a> on how to install RHugin and its dependencies.
 
-Furthermore, DNAmixtures require packages Rsolnp, Matrix, and
-numDeriv, that can all be obtained as
+Furthermore, DNAmixtures requires packages Rsolnp, Matrix, and
+numDeriv to be installed, and these can be obtained as
 <p class="code"> 
 install.packages(c("Rsolnp", "Matrix", "numDeriv")) 
 </p>
