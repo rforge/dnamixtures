@@ -13,7 +13,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
   <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="description" content="The features of the DNAmixtures R-package include parameter-fitting, evaluation of the likelihood, prediction of genotypes, and visual diagnostics." />
-	<meta name="keywords" content="DNA mixture, mixed profile, deconvolution, likelihood ratio, maximum likelihood, genotype, evidence, EPG" />
+	<meta name="keywords" content="DNA mixture, DNA mixtures, R-package, statistical inference, mixed profile, deconvolution, likelihood ratio, maximum likelihood, genotype, evidence, EPG, forensic genetics, DNAmixtures" />
 	<meta name="google-site-verification" content="e6ukA82x3m80Gndv4ZYqjkIW9Mx-IyVdGlCG2qfDGnU" />
 	<title> The DNAmixtures package </title>
 	<link href="css/default.css" rel="stylesheet" type="text/css" />
