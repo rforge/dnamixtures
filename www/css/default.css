@@ -28,6 +28,8 @@ p.code {
     background-color: #FFFFFF;
 }
 
+code {font-family:monospace;}
+
 hr {
     height: 0.2em;
     color: #92948f;

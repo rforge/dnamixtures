@@ -1,12 +1,11 @@
 Package: DNAmixtures
 Type: Package
-Title: Statistical Inference for Mixed Traces of DNA
-Version: 0.1-0
-Date: 2013-06-10
+Title: Statistical Inference for Mixed Samples of DNA
+Version: 0.1-1
+Date: 2013-12-08
 Author: Therese Graversen
 Maintainer: <therese.graversen@stats.ox.ac.uk>
-Description: Statistical methods for inference about contributors to a mixed
-    trace of DNA.
+Description: Statistical methods for DNA mixture analysis.
 Depends:
     RHugin,
     Rsolnp,

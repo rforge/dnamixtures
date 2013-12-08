@@ -38,7 +38,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 <hr/>
 <p>
 The DNAmixtures package implements a statistical model for mixed
-  traces of DNA, described in <a href = "http://arxiv.org/abs/1302.4404">
+  samples of DNA, described in <a href = "http://arxiv.org/abs/1302.4404">
 Analysis of DNA mixtures with Artefacts</a>. 
 </p>
 Features include 
@@ -51,7 +51,7 @@ contributors to the model.</li>
 </ul>
 
 <p>
-  The computational approach is discussed in <a href="http://arxiv.org/abs/1307.4956">
+The computational approach is discussed in <a href="http://arxiv.org/abs/1307.4956">
 Computational aspects of DNA mixture analysis</a> along with a description of the various tools for model checking.
 </p>
 
@@ -110,8 +110,33 @@ library(DNAmixtures)<br/>
 help(DNAmixtures)
 </p>
 
-
-
+<h2> Release Log </h2>
+<h4> DNAmixtures 0.1-1 released 2013-12-08</h4>
+<ul>
+<li> Function <code>setPeakInfo</code> for taking into account the observed peaks using a specified model parameter has been added.
+Both discrete information about presence/absence of peaks and the full peak heights can be used. </li>
+<li> A function <code>removePeakInfo</code> for removing information about observed peaks has been added. </li>
+<li> <code>set.cpt</code> has been renamed to <code>setCPT</code>; Functions <code>set.CPT.[O/D/Q]</code> are renamed to <code>setCPT.[O/D/Q]</code>.</li>
+<li> The functions <code>setCPT</code> and <code>setCPT.O</code> no longer automatically include the peak height information.</li>
+<li> Functions <code>parameters</code> and <code>condPeakHeights</code> have been removed, and information of 
+the state of the networks (e.g. specified parameters) is no longer maintained in the <code>DNAmixture</code> objects. It is up to the user to 
+ensure that the Bayesian networs represent the distribution of interest.</li>
+<li> The package functions may during computations change the state of the Bayesian 
+networks in a DNAmixture, both in terms of propagated 
+evidence and of the model parameters used. In particular, many functions now initially retract all evidence 
+to ensure the networks represent the correct distribution. In special cases, the user may wish to keep some evidence during 
+the computations; this can be achieved through an argument <code>initialize=FALSE</code>. </li>
+<li> Printing a summary of <code>map.genotypes</code> can now be done for selected markers only. </li>
+<li> <code>mixML</code> returns the mle as class <code>mixpar</code>.</li>
+<li> <code>varEst</code> has been improved</li>
+<li> Plot methods have been improved. </li>
+<li> <code>logL.K</code> now ensures that phi has the right ordering. </li>
+<li> <code>get.shapes</code> has been renamed to <code>getShapes</code>. </li>
+</ul>
+<h4> DNAmixtures 0.1-0 released 2013-06-10</h4>
+<ul>
+<li> First release. </li>
+</ul>
 </div>
 
 <div id="footer">
