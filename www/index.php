@@ -111,6 +111,10 @@ help(DNAmixtures)
 </p>
 
 <h2> Release Log </h2>
+<h4> DNAmixtures 0.1-2 released 2014-01-22</h4>
+<ul>
+<li> A significant speedup has been implemented. </li>
+</ul>
 <h4> DNAmixtures 0.1-1 released 2013-12-08</h4>
 <ul>
 <li> Function <code>setPeakInfo</code> for taking into account the observed peaks using a specified model parameter has been added.
