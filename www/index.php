@@ -51,8 +51,8 @@ contributors to the model.</li>
 </ul>
 
 <p>
-The computational approach is discussed in <a href="http://arxiv.org/abs/1307.4956">
-Computational aspects of DNA mixture analysis</a> along with a description of the various tools for model checking.
+The computational approach is discussed in <a href="http://link.springer.com/article/10.1007/s11222-014-9451-7">
+Computational aspects of DNA mixture analysis</a> where also the various tools for model checking are introduced.
 </p>
 
 <h4> Computation on Bayesian networks </h4>
@@ -111,6 +111,13 @@ help(DNAmixtures)
 </p>
 
 <h2> Release Log </h2>
+<h4> DNAmixtures 0.1-3 released 2014-04-05</h4>
+<ul>
+<li> The likelihood function can now optionally be maximised without imposing an order on unknown contributors. </li>
+<li> Highly implausible parameter values are better handled.</li>
+<li> Small bug-fixes to <code>predict</code> regarding a missing propagation step and the 
+handling of mixtures with non-overlapping sets of markers.</li>
+</ul>
 <h4> DNAmixtures 0.1-2 released 2014-01-22</h4>
 <ul>
 <li> A significant speedup has been implemented. </li>
