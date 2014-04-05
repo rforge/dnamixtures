@@ -39,7 +39,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 <p>
 The DNAmixtures package implements a statistical model for mixed
   samples of DNA, described in <a href = "http://arxiv.org/abs/1302.4404">
-Analysis of DNA mixtures with Artefacts</a>. 
+Analysis of Forensic DNA mixtures with Artefacts</a>. 
 </p>
 Features include 
 <ul>
