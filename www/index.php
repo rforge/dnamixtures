@@ -38,22 +38,31 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 <hr/>
 <p>
 The DNAmixtures package implements a statistical model for mixed
-  samples of DNA, described in <a href = "http://arxiv.org/abs/1302.4404">
-Analysis of Forensic DNA mixtures with Artefacts</a>. 
+  samples of DNA, described in a recent paper, <a href = "http://onlinelibrary.wiley.com/doi/10.1111/rssc.12071/full">
+Analysis of Forensic DNA mixtures with Artefacts</a>, which is published with discussion in Journal of the Royal Statistical Society, series C. 
 </p>
 Features include 
 <ul>
-<li>Parameter-fitting</li> 
+<li>Parameter fitting</li> 
 <li>Visual diagnostics</li> 
 <li>Evaluation of the likelihood</li> 
 <li>Prediction of the genotypes of unknown
-contributors to the model.</li>
+contributors to the DNA mixture.</li>
 </ul>
 
-<p>
+<h4> References </h4>
+<ul>
+<li>
 The computational approach is discussed in <a href="http://link.springer.com/article/10.1007/s11222-014-9451-7">
 Computational aspects of DNA mixture analysis</a> where also the various tools for model checking are introduced.
-</p>
+</li>
+<li> Example analyses and further details about both the model and the implementation may be found in <a href = "http://ora.ox.ac.uk/objects/uuid:4c3bfc88-25e7-4c5b-968f-10a35f5b82b0">Statistical and Computational Methodology for the Analysis of Forensic DNA Mixtures with Artefacts</a>.
+</li>
+<li>
+The analyses in <a href = "http://onlinelibrary.wiley.com/doi/10.1111/rssc.12071/full">
+Analysis of Forensic DNA mixtures with Artefacts</a> are performed using DNAmixtures and are documented as a short tutorial in the supporting information <a href = "http://onlinelibrary.wiley.com/store/10.1111/rssc.12071/asset/supinfo/rssc12071-sup-0001-SuppInfo.pdf?v=1&s=290479848c46713e7e040fb993a5ba9115e8d54b"> Case analysis using the DNAmixtures package </h>.
+</li>
+</ul>
 
 <h4> Computation on Bayesian networks </h4>
 
