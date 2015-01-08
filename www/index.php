@@ -60,7 +60,7 @@ Computational aspects of DNA mixture analysis</a> where also the various tools f
 </li>
 <li>
 The analyses in <a href = "http://onlinelibrary.wiley.com/doi/10.1111/rssc.12071/full">
-Analysis of Forensic DNA mixtures with Artefacts</a> are performed using DNAmixtures and are documented as a short tutorial in the supporting information <a href = "http://onlinelibrary.wiley.com/store/10.1111/rssc.12071/asset/supinfo/rssc12071-sup-0001-SuppInfo.pdf?v=1&s=290479848c46713e7e040fb993a5ba9115e8d54b"> Case analysis using the DNAmixtures package </h>.
+Analysis of Forensic DNA mixtures with Artefacts</a> are performed using DNAmixtures and are documented as a short tutorial in the supporting information <a href = "http://onlinelibrary.wiley.com/store/10.1111/rssc.12071/asset/supinfo/rssc12071-sup-0001-SuppInfo.pdf?v=1&s=290479848c46713e7e040fb993a5ba9115e8d54b"> Case analysis using the DNAmixtures package. </a>
 </li>
 </ul>
 
