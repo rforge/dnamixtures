@@ -122,7 +122,7 @@ help(DNAmixtures)
 <h2> Release Log </h2>
 <h4> DNAmixtures 0.1-4 released 2015-01-22</h4>
 <ul>
-<li> Small fix to ensure that alleles are correctly matched based on their repeat number (Thanks to Øyvind Bleka for reporting this). </li>
+<li> Small fix to ensure that alleles are correctly matched based on their repeat number (Thanks to &Oslash;yvind Bleka for reporting this). </li>
 </ul>
 <h4> DNAmixtures 0.1-3 released 2014-04-05</h4>
 <ul>
