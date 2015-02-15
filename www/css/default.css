@@ -211,7 +211,12 @@ div#featurelist {
 }
 
 div#featurelist dl{
-    margin: 0;
+   margin-bottom: 1em;
+   margin-top: 0;
+}
+
+div#featurelist dl:last-child{
+   margin: 0;
 }
 
 div#featurelist dl dt {
@@ -219,7 +224,7 @@ div#featurelist dl dt {
     font-size: 1.1em;
     font-style: italic;
     color: #555653;
-    padding: 0 0 0.3 em 0;
+    padding: 0em 0 0.3em 0;
 }
 
 div#featurelist dl dd:before {
@@ -298,5 +303,7 @@ div#featurelist dl dd {
     font-weight: bold;
 }
 
-
+#log li{
+    list-style-type: square;
+}
 

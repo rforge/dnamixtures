@@ -2,6 +2,7 @@
 A detailed svn log of changes can be found at the <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><span class="rpkg">DNAmixtures</span> project summary page</a>.
 </p>
 
+<div id="log">
 <h4> DNAmixtures 0.1-4 released 2015-01-22</h4>
 <ul>
 <li> Small fix to ensure that alleles are correctly matched based on their repeat number (Thanks to &Oslash;yvind Bleka for reporting this). </li>
@@ -43,3 +44,4 @@ the computations; this can be achieved through an argument <code>initialize=FALS
 <ul>
 <li> First release. </li>
 </ul>
+</div>
