@@ -1,3 +1,35 @@
+/* IE seems to show borders around images as a default */
+a img{border:none;}
+
+a:link {
+    color: #000;
+}
+a:visited {
+    color: #000;
+}
+
+
+/*
+.chunk {
+    width: 75%;
+}
+
+.source {
+    border: #000 solid 3px;
+}
+
+.output {
+    background: #0000FF;
+}
+
+.rimage {
+    width: 25%;
+}
+*/
+.rpkg{
+    font-weight: bold;
+}
+
 body {
     font-size: 100%;
     font-family: "Times New Roman", serif;
@@ -5,6 +37,7 @@ body {
     padding: 1em 0 1em 0;
     margin: 0;
 }
+
 div#wrap {
     background: #FFFFFF 0% 0;
     width: 70%;
@@ -16,9 +49,17 @@ div#wrap {
 h1#projectname {
     font-size: 2.5em;
     color: #92948f;
+    display:inline;
+}
+
+div#logo {
+    margin: 0;
+    float: right;
 }
 
 h2#projectsubname {
+    margin-top: 0;
+    margin-bottom: 0.5em;
     color: #8796c0;
 }
 
@@ -37,10 +78,7 @@ hr {
 }
 
 
-div#logo {
-    margin: 0;
-    float: right;
-}
+
 
 div#footer {
     background: #555653;
@@ -52,3 +90,213 @@ div#validation {
     float: right;
     padding: 2em;
 }
+
+div#menu {
+    margin: 2em auto;
+    border-width: 0.2em 0;
+    border-style: solid;
+    border-color: #8796c0;
+    clear:both;
+}
+
+div#menu ul {
+    overflow:hidden;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+div#menu ul li {
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+div#menu ul li a {
+    display: block;
+    padding: 0.2em 0;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div#menu ul li a:hover, a:active {
+    color: #8796c0;
+}
+
+div#menu ul li a.currentPage{
+    color: #FFFFFF;
+    background: #8796c0;
+}
+
+
+
+div#menu ul li a span {
+    text-decoration: underline;
+}
+
+/*
+div#menu ul li ul {
+display: none;
+top: 100%;
+left: 0;
+margin: 0;
+padding: 0;
+list-style-type: none;
+position: absolute;
+}
+*/
+
+
+
+/*
+#reqAndInstall ol { font-style:italic; font-family:Georgia, Times, serif; font-size:24px; color:#8796c0; }
+#reqAndInstall ol li { }
+#reqAndInstall ol li p { padding:8px; font-style:normal; font-family:Arial; font-size:13px; color:#000000; border-left: 1px solid #999; }
+#reqAndInstall ol li p em { display:block; }
+.reqtitle {
+    display:block;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+*/
+
+
+div#reqAndInstall {
+    width:75%;
+    margin: 3em auto;
+    border: solid;
+    padding: 0 1em;
+    border-color:#8796c0;
+    border-radius:.5em;
+}
+
+// #reqAndInstall table  {font-style:italic; font-family:Georgia, Times, serif; font-size:24px; color:#8796c0; }
+#reqAndInstall table { border: none; border-collapse: collapse}
+
+#reqAndInstall table th {
+    text-align: right;
+    border-right: #8796c0 solid 1px;
+}
+.reqtitle {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 0 1em 0 0;
+}
+#reqAndInstall table td {
+    font-style: normal;
+    padding: 0 0 0 1em;
+}
+#reqAndInstall table  {
+    margin: 0 auto;
+}
+
+img#screenshot {
+    width: 40%;
+    float: left;
+    clear: left;
+    margin: 0;
+    border: #000 solid 1px;
+}
+
+div#featurelist {
+    width: 55%;
+    float: right;
+    clear: right;
+
+}
+
+div#featurelist dl{
+    margin: 0;
+}
+
+div#featurelist dl dt {
+    font-weight: bold;
+    font-size: 1.1em;
+    font-style: italic;
+    color: #555653;
+    padding: 0 0 0.3 em 0;
+}
+
+div#featurelist dl dd:before {
+    content: "- ";
+}
+
+div#featurelist dl dd {
+    padding-left: 0em;
+    text-indent: -.7em;
+}
+
+.references{
+  background: #FFFFFF;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.references ul{
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+}
+
+/*
+.references ul li{
+    margin: 0;
+    font-size: 1em;
+    padding: 10px 15px;
+    display: block;
+    text-decoration: none;
+}
+*/
+
+
+.references ul li dl dt{
+    padding: 0.75em 0.75em;
+    border: #8796c0 solid 2px;
+    background: #E3E4E3; /*#C8C9C7; /*#92948f; #FAFAFA;*/
+    border-radius:.25em;
+    font-size: 1em;
+    font-weight: normal;
+    display: block;
+    text-decoration: none;
+}
+
+.references ul li dl dt a {
+    color: black;
+    text-decoration: none;
+}
+
+/*
+.references ul li dl dd{
+    width: 90%;
+    margin: 0 auto;
+    font-style: normal;
+    text-decoration: none;
+}
+*/
+
+.paperdescription {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0.75em 0 1.5em 0;
+    font-style: normal;
+    color: #000;
+}
+
+
+.references ul li ul {
+    list-style-type: square;
+    padding-left: 1em;
+}
+
+.papertitle {
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+

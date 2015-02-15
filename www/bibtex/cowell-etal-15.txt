@@ -1,0 +1,10 @@
+@article{cowell-etal-15,
+  author = {Robert G. Cowell and Therese Graversen and Steffen Lauritzen and Julia Mortera},
+  title = {Analysis of Forensic {DNA} Mixtures with Artefacts},
+  journal = {Journal of the Royal Statistical Society, series C},
+  volume = 64,
+  issue = 1,
+  pages = {1--48},
+  year = 2015
+}
+

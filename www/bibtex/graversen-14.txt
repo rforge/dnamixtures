@@ -1,0 +1,9 @@
+@phdthesis {graversen:14,
+	   author = {Therese Graversen},
+	   year = 2014,
+	   title = {Statistical and Computational Methodology for the Analysis of
+	   	    Forensic {DNA} Mixtures with Artefacts},
+           type = {DPhil},
+	   school = {University of Oxford},
+	   url = {http://ora.ox.ac.uk/objects/uuid:4c3bfc88-25e7-4c5b-968f-10a35f5b82b0}
+}
