@@ -8,12 +8,39 @@ a:visited {
     color: #000;
 }
 
-
-/*
-.chunk {
-    width: 75%;
+:target {
+//    outline: solid #92948f 5px;
+    animation: highlight 2s ease;
+}
+@keyframes highlight {
+  0% { border-color: black; }
+  100% { border-color: white; }
 }
 
+p.code {
+    font-family: monospace;
+    padding: 0 0 0 2em;
+    background-color: #FFFFFF;
+}
+
+code {font-family:monospace;}
+
+hr {
+    height: 0.2em;
+    color: #92948f;
+    background-color: #92948f;
+}
+
+.chunk {
+    width: 100%;
+}
+
+
+.rimage img {
+    max-width: 100%;
+}
+
+/*
 .source {
     border: #000 solid 3px;
 }
@@ -22,8 +49,9 @@ a:visited {
     background: #0000FF;
 }
 
-.rimage {
-    width: 25%;
+
+img.plot{
+    width: 50%;
 }
 */
 .rpkg{
@@ -63,34 +91,6 @@ h2#projectsubname {
     color: #8796c0;
 }
 
-p.code {
-    font-family: monospace;
-    padding: 0 0 0 2em;
-    background-color: #FFFFFF;
-}
-
-code {font-family:monospace;}
-
-hr {
-    height: 0.2em;
-    color: #92948f;
-    background-color: #92948f;
-}
-
-
-
-
-div#footer {
-    background: #555653;
-    width: 70%;
-    margin: 0 auto;
-}
-
-div#validation {
-    float: right;
-    padding: 2em;
-}
-
 div#menu {
     margin: 2em auto;
     border-width: 0.2em 0;
@@ -105,7 +105,6 @@ div#menu ul {
     margin: 0;
     padding: 0;
 }
-
 
 div#menu ul li {
     width: 20%;
@@ -130,38 +129,20 @@ div#menu ul li a.currentPage{
     background: #8796c0;
 }
 
-
-
 div#menu ul li a span {
     text-decoration: underline;
 }
 
-/*
-div#menu ul li ul {
-display: none;
-top: 100%;
-left: 0;
-margin: 0;
-padding: 0;
-list-style-type: none;
-position: absolute;
+div#footer {
+    background: #555653;
+    width: 70%;
+    margin: 0 auto;
 }
-*/
 
-
-
-/*
-#reqAndInstall ol { font-style:italic; font-family:Georgia, Times, serif; font-size:24px; color:#8796c0; }
-#reqAndInstall ol li { }
-#reqAndInstall ol li p { padding:8px; font-style:normal; font-family:Arial; font-size:13px; color:#000000; border-left: 1px solid #999; }
-#reqAndInstall ol li p em { display:block; }
-.reqtitle {
-    display:block;
-    font-style: italic;
-    font-weight: bold;
-    text-decoration: none;
+div#validation {
+    float: right;
+    padding: 2em;
 }
-*/
 
 
 div#reqAndInstall {
@@ -173,8 +154,10 @@ div#reqAndInstall {
     border-radius:.5em;
 }
 
-// #reqAndInstall table  {font-style:italic; font-family:Georgia, Times, serif; font-size:24px; color:#8796c0; }
-#reqAndInstall table { border: none; border-collapse: collapse}
+#reqAndInstall table {
+    border: none;
+    border-collapse: collapse
+}
 
 #reqAndInstall table th {
     text-align: right;
@@ -248,21 +231,10 @@ div#featurelist dl dd {
   list-style: none;
 }
 
-/*
-.references ul li{
-    margin: 0;
-    font-size: 1em;
-    padding: 10px 15px;
-    display: block;
-    text-decoration: none;
-}
-*/
-
-
 .references ul li dl dt{
     padding: 0.75em 0.75em;
     border: #8796c0 solid 2px;
-    background: #E3E4E3; /*#C8C9C7; /*#92948f; #FAFAFA;*/
+    background: #E3E4E3;
     border-radius:.25em;
     font-size: 1em;
     font-weight: normal;
@@ -275,15 +247,6 @@ div#featurelist dl dd {
     text-decoration: none;
 }
 
-/*
-.references ul li dl dd{
-    width: 90%;
-    margin: 0 auto;
-    font-style: normal;
-    text-decoration: none;
-}
-*/
-
 .paperdescription {
     width: 90%;
     margin: 0 auto;
@@ -292,15 +255,17 @@ div#featurelist dl dd {
     color: #000;
 }
 
-
 .references ul li ul {
     list-style-type: square;
     padding-left: 1em;
 }
 
+.references .papertitle {
+    font-weight: bold;
+}
+
 .papertitle {
     font-style: italic;
-    font-weight: bold;
 }
 
 #log li{

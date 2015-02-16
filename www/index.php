@@ -29,6 +29,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
     <meta name="google-site-verification" content="e6ukA82x3m80Gndv4ZYqjkIW9Mx-IyVdGlCG2qfDGnU" />
     <title> The DNAmixtures package </title>
     <link href="css/default.css" rel="stylesheet" type="text/css" />
+    <link href="knitr.css" rel="stylesheet" type="text/css" />
     <link rel="shortcut icon" href="favicon.ico"/>
   </head>
 

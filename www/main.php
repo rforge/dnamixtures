@@ -11,10 +11,9 @@
 </p>
 
 
-<img src="graphics/screenshot.png" id="screenshot"></img>
+<img src="graphics/screenshot.png" id="screenshot" alt="Screenshot of DNAmixtures in the R GUI"></img>
 
 <div id="featurelist">
-<!--<h3>Features include</h3>-->
 <dl>
 <dt>Common forensic applications</dt>
 <dd>Computation of likelihood ratios</dd>
@@ -29,8 +28,6 @@
 
 <dl>
 <dt>A complete statistical framework</dt>
-<!--<p>wide range of statistical tools and quantities, among --
-  --others</p>-->
 <dd>Exact computation of the likelihood function</dd>
 <dd>Maximum likelihood estimation of parameters</dd>
 <dd>Simulation of genotypes and peak heights</dd>
@@ -47,7 +44,6 @@ contributors to the DNA mixture.</li>-->
 
 <div id="reqAndInstall">
 <h3>System requirements</h3>
-<!--Windows, Linux, or MacOS -->
 <p>
 <span class="rpkg">DNAmixtures</span> may be installed on any system
 (Windows, Linux, or MacOS), on which the following three programs are

@@ -3,22 +3,19 @@
   <ul>
     <li>
       <dl>
-	<dt><div style="float:left;width=20%">
+	<dt id="cowell-etal-15"><div style="float:left;width=20%">
 	    <a href = "http://onlinelibrary.wiley.com/doi/10.1111/rssc.12071/full">
 	      <span class="papertitle">Analysis of forensic DNA
 	      mixtures with artefacts.</span><br/>
 	      Robert G. Cowell, Therese Graversen, Steffen Lauritzen,
 	      and Julia Mortera
-	      <!--Cowell, R. G., Graversen, T., Lauritzen, S., and
-	      Mortera, J.-->
 	      <br/>
 	      Journal of the Royal Statistical Society, series C. Volume
 	      64, Issue 1, 1-48, 2015
 	    </a>
 	  </div>
 	  <div style="float:right"><a href="bibtex/cowell-etal-15.txt"><img src="graphics/icon_bibtex_32x32.png"
-					       title="Download BibTeX
-					       citation"/></a>
+					       title="Download BibTeX citation"/></a>
 	  </div>
 	  <div style="clear:both"></div>
 	</dt>
@@ -42,15 +39,14 @@
     </li>
     <li>
       <dl>
-	<dt><div style="float:left;width=20%">
+	<dt id="graversen-lauritzen-14"><div style="float:left;width=20%">
 	    <a href = "http://dx.doi.org/10.1007/s11222-014-9451-7">
 	      <span class="papertitle">Computational aspects of DNA mixture analysis.</span><br/>
 	      Therese Graversen and Steffen Lauritzen.<br/>
 	      Statistics and Computing, 2014.</a>
 	  </div>
 	  <div style="float:right"><a href="bibtex/graversen-lauritzen-14.txt"><img src="graphics/icon_bibtex_32x32.png"
-				      title="Download BibTeX
-				      citation"/></a>
+					       title="Download BibTeX citation"/></a>
 	  </div>
 	  <div style="clear:both"></div>
 	</dt>
@@ -69,15 +65,14 @@
 
     <li>
       <dl>
-	<dt><div style="float:left;width=20%">
+	<dt id="graversen-14"><div style="float:left;width=20%">
 	    <a href = "http://ora.ox.ac.uk/objects/uuid:4c3bfc88-25e7-4c5b-968f-10a35f5b82b0">
 	      <span class="papertitle">Statistical and Computational Methodology for the Analysis of Forensic DNA Mixtures with Artefacts.</span><br/>
 	      Therese Graversen.<br/>
 	      DPhil. University of Oxford. 2014.</a>
 	  </div>
 	  <div style="float:right"><a href="bibtex/graversen-14.txt"><img src="graphics/icon_bibtex_32x32.png"
-					       title="Download BibTeX
-					       citation"/></a>
+					       title="Download BibTeX citation"/></a>
 	  </div>
 	  <div style="clear:both"></div>
 	</dt>
