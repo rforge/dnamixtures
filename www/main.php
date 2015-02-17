@@ -20,10 +20,16 @@
 <dd>Deconvolution of the DNA mixture</dd>
 <dd>Combined analysis of multiple traces of DNA</dd>
 </dl>
+
 <dl>
 <dt>Visual assessment of the statistical modelling</dt>
 <dd>Does the hypothesis explain the data well?</dd>
 <dd>Is the distribution of peak heights adequate?</dd>
+</dl>
+
+<dl> <dt>Efficient exact computation</dt>
+ <dd>Runs on a standard desktop or laptop</dd> 
+<dd>Allows a higher number of contributors </dd> 
 </dl>
 
 <dl>
@@ -33,8 +39,6 @@
 <dd>Simulation of genotypes and peak heights</dd>
 <dd>Access to various conditional distributions of peak
   heights given data</dd>
-<!--<li>Prediction of the genotypes of unknown
-contributors to the DNA mixture.</li>-->
 </dl>
 </div>
 
