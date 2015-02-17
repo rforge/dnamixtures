@@ -8,8 +8,16 @@ of <span class="rpkg">DNAmixtures</span>. For a more thorough
 walk-through, see for instance the example analysis in <a href =
 "http://onlinelibrary.wiley.com/store/10.1111/rssc.12071/asset/supinfo/rssc12071-sup-0001-SuppInfo.pdf?v=1&amp;s=290479848c46713e7e040fb993a5ba9115e8d54b"
 class="papertitle">Case analysis using the DNAmixtures package</a> or
-the detailed discussions
-in <a href="?page=references#graversen-14" class="paperref">Graversen (2014)</a>.
+the detailed discussions in <a href="?page=references#graversen-14"
+class="paperref">Graversen (2014)</a>.
+</p>
+
+<p>
+The manual pages contains detailed descriptions of all functions
+available and a brief presentation of the statistical model. Further
+details on the model and its parameters can be found
+in <a href="?page=references#cowell-etal-15" class="paperref">Cowell
+et. al. (2015)</a>.
 </p>
 
 <h2>Setting up a DNA mixture model</h2>
@@ -51,8 +59,9 @@ package:</p>
 <p>
 As an example, let us create a model for the single DNA mixture
 MC15. The prosecution hypothesis could be that K1, K2, and K3 have
-contributed to the trace together with an unknown contributor U1. We
-set the detection threshold C to 50 rfu.
+contributed to the trace together with an unknown contributor U1, that
+is k = 4 contributors in total. We set the detection threshold C to 50
+rfu.
 </p>
 <div class="chunk" id="DNAmixture"><div class="rcode"><div class="source"><pre class="knitr r"><span class="hl kwd">data</span><span class="hl std">(SGMplusDyes)</span>
 <span class="hl std">mixHp</span> <span class="hl kwb">&lt;-</span> <span class="hl kwd">DNAmixture</span><span class="hl std">(</span><span class="hl kwd">list</span><span class="hl std">(MC15),</span> <span class="hl kwc">k</span> <span class="hl std">=</span> <span class="hl num">4</span><span class="hl std">,</span> <span class="hl kwc">K</span> <span class="hl std">=</span> <span class="hl kwd">c</span><span class="hl std">(</span><span class="hl str">&quot;K1&quot;</span><span class="hl std">,</span> <span class="hl str">&quot;K2&quot;</span><span class="hl std">,</span> <span class="hl str">&quot;K3&quot;</span><span class="hl std">),</span> <span class="hl kwc">C</span> <span class="hl std">=</span> <span class="hl kwd">list</span><span class="hl std">(</span><span class="hl num">50</span><span class="hl std">),</span>
@@ -230,9 +239,9 @@ observed.</p>
 
 <p>
 We look out for upwards jumps, as they occur when the model has
-predicted the opposite of what was observed. The monitor crossing the
-upper 95% or 99% bounds indicates that mis-predictions occur more
-frequently than expected.</p>
+predicted the opposite of what was observed. The monitor (circles)
+crossing the upper 95% or 99% bounds indicates that mis-predictions
+occur more frequently than expected.</p>
 
 <div class="chunk" id="preqplotHp"><div class="rcode"><div class="source"><pre class="knitr r">     <span class="hl std">pr</span> <span class="hl kwb">&lt;-</span> <span class="hl kwd">prequential.score</span><span class="hl std">(mixHp,</span> <span class="hl kwc">pars</span> <span class="hl std">= mlHp</span><span class="hl opt">$</span><span class="hl std">mle)</span>
      <span class="hl kwd">plot</span><span class="hl std">(pr,</span> <span class="hl kwc">main</span> <span class="hl std">=</span> <span class="hl str">&quot;K1, K2, K3, and one unknown&quot;</span><span class="hl std">)</span>
