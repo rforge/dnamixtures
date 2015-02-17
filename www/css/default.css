@@ -9,14 +9,8 @@ a:visited {
 }
 
 :target {
-    outline: solid #E87406 4px; //#C0B187 4px; //#6b9437 4px;
-    //   background-color: #6b9437;
-    //   animation: highlight 2s ease;
+    outline: solid #E87406 4px; 
 }
-//@keyframes highlight {
-//  0% { border-color: black; }
-//  100% { border-color: white; }
-//}
 
 p.code {
     font-family: monospace;

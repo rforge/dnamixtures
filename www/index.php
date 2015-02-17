@@ -3,8 +3,8 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-//$domain=ereg_replace('[^\.]*\.(.*)$','\1',$_SERVER['HTTP_HOST']);
-//$group_name=ereg_replace('([^\.]*)\..*$','\1',$_SERVER['HTTP_HOST']);
+$domain=preg_replace('/[^\.]*\.(.*)$/', '\1', $_SERVER['HTTP_HOST']);
+$group_name=preg_replace('/([^\.]*)\..*$/', '\1', $_SERVER['HTTP_HOST']);
 $themeroot='r-forge.r-project.org/themes/rforge/';
 
 if (isset($_GET['page'])){
