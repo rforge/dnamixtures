@@ -28,7 +28,7 @@
 </dl>
 
 <dl> <dt>Efficient exact computation</dt>
- <dd>Runs on a standard desktop or laptop</dd> 
+<dd>Runs on a standard desktop or laptop</dd> 
 <dd>Allows a higher number of contributors </dd> 
 </dl>
 
@@ -60,8 +60,7 @@ installed:</p>
   </tr>
   <tr>
     <th><a class="reqtitle"
-    href="http://www.hugin.com">Hugin</a></th><td>Expert system for
-    Bayesian networks</td>
+    href="http://www.hugin.com">Hugin</a></th><td>Bayesian network software</td>
   </tr>
   <tr>
     <th><a class="reqtitle"
