@@ -20,7 +20,7 @@
 	  <div style="clear:both"></div>
 	</dt>
 	<dd class="paperdescription"><p>The paper was presented to and
-	discussed at the RSS at 10 June 2014 and is published with
+	discussed at the RSS at 11 June 2014 and is published with
 	contributed discussions as well as the authors' response to
 	the discussion.</p>
 	  <ul>

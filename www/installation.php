@@ -35,8 +35,7 @@ genotypes. Our implementation relies on the <a href =
 computations. </p>
 
 <h3>Which license do I need?</h3>
-<p> The package has been developed under a Hugin Researcher license,
-but should be compatible with any choice of (full) license for Hugin.</p>
+<p> The package has been developed under a Hugin Researcher license and relies on the Hugin C API.</p>
 
 <p> <span class="rpkg">DNAmixtures</span> may be installed with the
 free version of Hugin, HuginLite, though due to a limitation in the
@@ -44,6 +43,7 @@ size of networks allowed by the free version, in practice this will
 restrict the functionality in <span class="rpkg">DNAmixtures</span> to
 mixtures with no unknown contributors.  </p>
 
+<p>The package should also be compatible with e.g. Hugin Developer, which provides the full Hugin C API with no limitations in network size, though this has not been tested.</p>
 
 <p>Hugin is solely used for performing computations on the Bayesian
 networks created by <span class="rpkg">DNAmixtures</span> and, in
