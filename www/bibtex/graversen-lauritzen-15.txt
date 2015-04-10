@@ -4,7 +4,7 @@
   journal = {Statistics and Computing},
   volume = 25,
   issue = 3,
-  pages = 527-541,
+  pages = {527--541},
   year = 2015
 }
 
