@@ -39,11 +39,11 @@
     </li>
     <li>
       <dl>
-	<dt id="graversen-lauritzen-14"><div style="float:left;width=20%">
+	<dt id="graversen-lauritzen-15"><div style="float:left;width=20%">
 	    <a href = "http://dx.doi.org/10.1007/s11222-014-9451-7">
 	      <span class="papertitle">Computational aspects of DNA mixture analysis.</span><br/>
 	      Therese Graversen and Steffen Lauritzen.<br/>
-	      Statistics and Computing, 2014.</a>
+	      Statistics and Computing, Volume 25, Issue 3, 527-541. 2015.</a>
 	  </div>
 	  <div style="float:right"><a href="bibtex/graversen-lauritzen-14.txt"><img src="graphics/icon_bibtex_32x32.png"
 					       title="Download BibTeX citation"/></a>

@@ -1,8 +1,10 @@
-@article{graversen-lauritzen-14,
+@article{graversen-lauritzen-15,
   author = {Therese Graversen and Steffen Lauritzen},
   title = {Computational Aspects of {DNA} Mixture analysis},
   journal = {Statistics and Computing},
-  note = {DOI: 10.1007/s11222-014-9451-7},
-  year = 2014,
+  volume = 25,
+  issue = 3,
+  pages = 527-541,
+  year = 2015
 }
 
