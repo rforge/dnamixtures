@@ -45,7 +45,7 @@
 	      Therese Graversen and Steffen Lauritzen.<br/>
 	      Statistics and Computing, Volume 25, Issue 3, 527-541. 2015.</a>
 	  </div>
-	  <div style="float:right"><a href="bibtex/graversen-lauritzen-14.txt"><img src="graphics/icon_bibtex_32x32.png"
+	  <div style="float:right"><a href="bibtex/graversen-lauritzen-15.txt"><img src="graphics/icon_bibtex_32x32.png"
 					       title="Download BibTeX citation"/></a>
 	  </div>
 	  <div style="clear:both"></div>
