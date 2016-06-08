@@ -5,7 +5,9 @@ installRHugin <- function(){
   ## Dowloads the modified RHugin source package to a temporary directory
   ## and modifies the .onLoad function to contain the user-specific HUGINHOME location
   tmpdir <- paste(strsplit(tempdir(), split = "\\", fixed = TRUE)[[1]], collapse = .Platform$file.sep)
-  untar("dnamixtures.r-forge.r-project.org/RHugin/RHuginWindows.tar.gz", exdir = tmpdir, compressed = "gzip")
+  download.file("http://dnamixtures.r-forge.r-project.org/RHugin/RHuginWindows.tar.gz",
+                file.path(tmpdir, "RHuginWindows.tar.gz"), quiet = TRUE)
+  untar(file.path(tmpdir, "RHuginWindows.tar.gz"), exdir = tmpdir, compressed = "gzip")
   onLoad <- file.path(tmpdir, "RHugin/R/onLoad.q")
   ol <- readLines(onLoad)
   ol[grep("HUGINHOME <- NULL", ol)[1]] <- paste0("    HUGINHOME <- \"",
