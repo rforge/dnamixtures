@@ -56,15 +56,25 @@ this is currently not supported.  </p>
 <p> <span class="rpkg">DNAmixtures</span> calls Hugin through the API
 provided in the <a href ="http://rhugin.r-forge.r-project.org/"><span
 class="rpkg">RHugin</span></a> package, meaning that the user can
-easily manipulate the Bayesian networks directly from R.</p>
+easily manipulate the Bayesian networks directly from R. <span
+class="rpkg">RHugin</span> depends on packages <span
+class="rpkg">graph</span> and <span class="rpkg">Rgraphviz</span> that
+can be installed by</p>
 
+<p class = "code">
+source("http://bioconductor.org/biocLite.R")</br>
+biocLite(c("graph", "Rgraphviz"))
+</p>
+
+<h3>Installation under Windows</h3>
+
+<?php include "RHugin/installation.php"; ?>
+
+<h3>Installation on Linux and Mac OS X</h3>
 <p>
 See the <a href = "http://rhugin.r-forge.r-project.org/">RHugin
 package homepage</a> on how to install RHugin and its dependencies.
 </p>
-
-<p> Note that, under Windows, it is important that the version of
-RHugin follows that of Hugin.</p>
 
 <h2> Installing other dependencies in R</h2>
 
